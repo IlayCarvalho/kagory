@@ -1,0 +1,75 @@
+{
+    "cosmeticos": [
+      {
+        "id": 1,
+        "nome": "Creme Facial Anti-idade",
+        "descricao": "Reduz rugas e linhas de expressão, promove hidratação intensa.",
+        "data_validade": "2025-06-30",
+        "img": "https://i.postimg.cc/HxDMW2YW/Bruna-Tavares-Base-L-quida-Bt-Skin.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Shampoo Revitalizante",
+        "descricao": "Fortalece os cabelos, proporciona brilho e maciez.",
+        "data_validade": "2024-12-15",
+        "img": "https://i.postimg.cc/cJWQWWdk/Payot-Boca-Rosa-Beauty-Matte-1-M-rmore-P-Solto-20-G.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Protetor Solar FPS 50",
+        "descricao": "Protege contra os raios UVA e UVB, resistente à água.",
+        "data_validade": "2023-09-20",
+        "img": "https://i.postimg.cc/0QbGWfk9/P-Facial-Banana-Super-Poderes.jpg"
+      },
+      {
+        "id": 4,
+        "nome": "Hidratante Corporal",
+        "descricao": "Nutre e hidrata profundamente a pele, deixando-a macia e suave.",
+        "data_validade": "2024-11-25",
+        "img": "https://i.postimg.cc/522XStNV/Paleta-de-Sombras-Mari-Maria-Makeup-Ginger-Glow-Nude-Palette-1-Un.jpg"
+      },
+      {
+        "id": 5,
+        "nome": "Máscara Capilar Reparadora",
+        "descricao": "Repara danos, fortalece os fios e aumenta o brilho dos cabelos.",
+        "data_validade": "2023-08-10",
+        "img": "https://i.postimg.cc/9fXsfvp1/Linha-Mari-Maria-Makeup.jpg"
+      },
+      {
+        "id": 6,
+        "nome": "Perfume Feminino Floral",
+        "descricao": "Fragrância delicada e duradoura, ideal para o dia a dia.",
+        "data_validade": "2025-04-05",
+        "img": "https://i.postimg.cc/YSchKzzp/download.jpg"
+      },
+      {
+        "id": 7,
+        "nome": "Batom Matte",
+        "descricao": "Textura cremosa, alta pigmentação e longa duração.",
+        "data_validade": "2023-12-31",
+        "img": "https://i.postimg.cc/Gh2QHbw4/r.jpg"
+      },
+      {
+        "id": 8,
+        "nome": "Gel de Limpeza Facial",
+        "descricao": "Limpa profundamente a pele, removendo impurezas e oleosidade.",
+        "data_validade": "2024-10-15",
+        "img": "https://i.postimg.cc/2yzf4VFR/download-1.jpg"
+      },
+      {
+        "id": 9,
+        "nome": "Esfoliante Corporal",
+        "descricao": "Remove células mortas, deixando a pele renovada e suave.",
+        "data_validade": "2023-07-20",
+        "img": "https://i.postimg.cc/2yzf4VFR/download-1.jpg"
+      },
+      {
+        "id": 10,
+        "nome": "Condicionador Hidratante",
+        "descricao": "Desembaraça os fios, proporciona maciez e nutrição intensa.",
+        "data_validade": "2024-09-02",
+        "img": "https://i.postimg.cc/2yzf4VFR/download-1.jpg"
+      }
+    ]
+}
+  

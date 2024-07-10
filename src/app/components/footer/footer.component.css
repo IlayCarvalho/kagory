@@ -1,0 +1,36 @@
+.div-footer-main {
+    height: 92.9px; 
+    
+    background-color: #DF930A; 
+    
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.div-cl-footer {
+    height: 100%; 
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+h1 {
+    padding-top: 30px;
+
+    color: #faebd7;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 700;
+
+    color: #faebd7;
+
+    padding-top: 5px;
+}
