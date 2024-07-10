@@ -4,6 +4,7 @@
     background-color: #DF930A; 
     
     display: flex; 
+    flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-around;
 }
