@@ -1,4 +1,14 @@
-/*Nav*/
-div {    
+.main-cards {
+    width: 100%;
     height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

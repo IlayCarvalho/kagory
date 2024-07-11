@@ -1,4 +1,6 @@
+import { NgFor } from '@angular/common';
 import { Component, Input} from '@angular/core';
+import { Consumo } from '../../Consumo';
 
 @Component({
   selector: 'app-main',
@@ -8,11 +10,10 @@ import { Component, Input} from '@angular/core';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
- @Input() dados = {
-    nome: "sombra",
-    idade: 35,
-    cargo: "Desenvolvedor"
-  }
-
-  
+  @Input() id: number = 0;
+  @Input() nome: string = '';
+  @Input() descricao: string = '';
+  @Input() data_validade: string = '';
+  @Input() img: string = '';
+  @Input() cor: string = '';
 }

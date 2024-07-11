@@ -1,25 +1,13 @@
-.main-content {
-    width: 100%; 
-    height: auto;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-}
 
 .main-cosmeticos {    
-    width: 95%;
+    width: 310px;
+    height: auto;
 
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: center; 
     align-items: center;
-    gap: 2rem;
 }
 
 .card-cosmetico {
@@ -36,7 +24,6 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    gap: 1rem;
 }
 
 .main-legend {
