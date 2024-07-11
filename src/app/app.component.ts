@@ -5,6 +5,7 @@ import { FooterComponent } from "./components/footer/footer.component"
 import { MainComponent } from "./components/main/main.component"
 import { Consumo } from './Consumo';
 import { NgFor } from '@angular/common';
+import { ConsumoService } from './services/consumo.service';
 
 @Component({
   selector: 'app-root',
@@ -19,18 +20,18 @@ import { NgFor } from '@angular/common';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'kagoryc';
 
-  protected listaCosmestico: Consumo[] = [
-    {
-      id: 1,
-      nome: "Sombra",
-      descricao: "Sombra Rosa",
-      data_validade: "04/2025",
-      img: "https://i.postimg.cc/Gh2QHbw4/r.jpg",
-      cor: "42445"
-    },
-  ]
+  protected listaCosmestico: Consumo[] = [];
 
+  constructor( private servicoCosmetico: ConsumoService) {
+    this.listandoCosmeticos();
+  };
+
+  listandoCosmeticos(): void {
+    this.servicoCosmetico.consumoAPI().subscribe(lista => this.listaCosmestico = lista);
+
+  };
 }
